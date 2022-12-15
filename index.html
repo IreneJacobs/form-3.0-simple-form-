@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple From</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h2>Hey there! Welcome to my simple form page.</h2>
+        <h5>Kindly fill in your personal information.</h5>
+        
+        <form action="reg/reg.html" target="_blank" autocomplete="on">
+            <p>
+                <label for="fname">First Name</label> <br>
+                <input type="text" name="fname" id="fname" placeholder="e.g Irene" required><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" id="lname" placeholder="e.g Jacobs" required><br><br>
+                <label for="email">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder="irenej@gmail.com" required><br>
+                <label for="Password">Password</label><br>
+                <input type="password" name="lname" id="Password" placeholder="........" required><br><br>
+                <label for="Password">Confirm Password</label> <br>
+                <input type="password" name="fname" id="fname" placeholder="........" required><br>
+                <label for="phone number">Phone number</label><br>
+                <input type="tel" name="phone number" id="phone number" placeholder="e.g +234 7012345678" required><br><br>
+                <label for="fav_color">What is your favourite color?</label>
+                <input type="color" name="fav_color" id="fav_color">
+            </p>
+            <p>
+                Date of Birth<input type="date" name="dob" id="dob" required> <br> <br>
+                Where did you hear about us?
+                <select name="source">
+                <option value="">Facebook</option>
+                <option value="">WhatsApp</option>
+                <option value="" selected>Instagram</option>
+                <option value="">Twitter</option>
+                <option value="">From a friend</option>
+                <option value="">Others</option>
+                </select>
+                <label for="stack">What is your stack?</label> <br>
+                <input type="checkbox" name="stack"> <label for="">HTML</label> <br>
+                <input type="checkbox" name="stack"> <label for="">CSS</label> <br>
+                <input type="checkbox" name="stack"> <label for="">JAVASCRIPT</label> <br>
+                <input type="checkbox" name="stack"> <label for="">PYTHON</label> <br>
+                <input type="checkbox" name="stack"> <label for="">TYPESCRIPT</label> <br>
+                <input type="checkbox" name="stack"> <label for="">PHP</label> <br>
+                <input type="checkbox" name="stack"> <label for="">C++</label> <br>
+                <input type="checkbox" name="stack"> <label for="">C</label> <br>
+            </p>
+             
+            <p>
+                <span>Would you like to recieve updates from us?</span> <br>
+                Yes <input type="radio" name="updates"/>
+                No <input type="radio" name="updates"/>
+            </p>
+                <br><br><br>
+                <input type="submit" value="Register">
+        </form>
+    </main>
+    <footer>
+        <span id="footbox">
+            Coded by <a href="">Idyllic Codes</a>
+        </span>
+    </footer>
+</body>
+</html>

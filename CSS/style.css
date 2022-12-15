@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(110, 50, 0)
+}
+main{
+    margin: 5px;
+    padding: 50px;
+    background-color: rgb(226, 144, 20);
+    border-radius: 0 40px 0 40px;
+}
+
+footer>span{
+    text-align: center;
+    border: goldenrod 10px;}
+
+footer{
+    border-radius: 0;
+    border-color: darksalmon;
+    background-color: palegreen;
+    height: 50px;
+}
